@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RecyclerVerSensoresActivity"
-    android:background="@android:color/white">
+    android:background="@android:color/darker_gray">
 
     <!-- Titulo -->
     <TextView
@@ -17,9 +17,12 @@
         android:layout_margin="8dp"
         android:padding="16dp"
         android:textSize="18sp"
-        android:textColor="@android:color/background_dark"
-        android:text="Sensores agregados"
-        android:textStyle="bold"/>
+        android:textColor="@android:color/background_light"
+        android:text="@string/mensajeTitulo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
     <!-- ListView debajo del TituloSensores -->
     <ListView
